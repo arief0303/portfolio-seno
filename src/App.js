@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { OrbitControls } from '@react-three/drei';
-import { Box } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { useLoader, useThree } from '@react-three/fiber'
+import { useLoader } from '@react-three/fiber'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { Environment } from '@react-three/drei'
 
